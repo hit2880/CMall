@@ -1,0 +1,100 @@
+/* Location Setup */
+.location-setup {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.location-setup h1 {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.location-setup .subtitle {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.location-options {
+  margin-bottom: 30px;
+}
+
+.predefined-locations h3,
+.custom-location h3 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.location-btn {
+  padding: 12px;
+  background: #f5f5f5;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.location-btn:hover {
+  background: #efefef;
+}
+
+.location-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+}
+
+.location-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.location-confirmation {
+  background: #e8f5e9;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border-left: 4px solid #4CAF50;
+}
+
+.location-confirmation p {
+  color: #2e7d32;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.confirmation-note {
+  font-weight: 600;
+}
+
+.location-info {
+  background: #fff3e0;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #e65100;
+  font-size: 13px;
+  border-left: 4px solid #ff9800;
+}
+
+@media (max-width: 600px) {
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+}
